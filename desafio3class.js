@@ -21,6 +21,13 @@ class hero {
     }
 }
 
-let heroAttack = new hero("caio", 23, "monge");
+const hero1 = new hero("caio", 23, "guerreiro");
+const hero2 = new hero("rafael", 27, "mago");
+const hero3 = new hero("gabriel", 23, "monge");
+const hero4 = new hero("eduardo", 23, "ninja");
 
-heroAttack.atacar()
+
+hero1.atacar()
+hero2.atacar()
+hero3.atacar()
+hero4.atacar()
